@@ -12,20 +12,10 @@ export class BowlingService{
         this.headers.append('content-type', 'application/json');
     }
 
-    getScore() {
-        return this.http.get('http://jsonplaceholder.typicode.com/posts')
-            .map(res => res.json());
-    }
-
-    
-
-    
-    
     calculateScore(postData: string) {
         return this.http.post('http://localhost:54826/api/Score/CalculateScore', postData, {
             headers: this.headers
         })
             .map(res => res.json());
     }
-
 }

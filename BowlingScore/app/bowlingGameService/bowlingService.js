@@ -18,10 +18,6 @@ var BowlingService = (function () {
         this.headers = new http_1.Headers();
         this.headers.append('content-type', 'application/json');
     }
-    BowlingService.prototype.getScore = function () {
-        return this.http.get('http://jsonplaceholder.typicode.com/posts')
-            .map(function (res) { return res.json(); });
-    };
     BowlingService.prototype.calculateScore = function (postData) {
         return this.http.post('http://localhost:54826/api/Score/CalculateScore', postData, {
             headers: this.headers

@@ -6,3 +6,12 @@ D:\BowlingScore\BowlingScore.BusinessLogic\bin\Debug\BowlingScore.BusinessLogic.
 D:\BowlingScore\BowlingScore.BusinessLogic\bin\Debug\BowlingScore.BusinessLogic.Interface.pdb
 D:\BowlingScore\BowlingScore.BusinessLogic\bin\Debug\Autofac.dll
 D:\BowlingScore\BowlingScore.BusinessLogic\bin\Debug\Autofac.xml
+D:\Bowling-Game\BowlingScore.BusinessLogic\bin\Debug\BowlingScore.BusinessLogic.dll
+D:\Bowling-Game\BowlingScore.BusinessLogic\bin\Debug\BowlingScore.BusinessLogic.pdb
+D:\Bowling-Game\BowlingScore.BusinessLogic\bin\Debug\Autofac.dll
+D:\Bowling-Game\BowlingScore.BusinessLogic\bin\Debug\BowlingScore.BusinessLogic.Interface.dll
+D:\Bowling-Game\BowlingScore.BusinessLogic\bin\Debug\BowlingScore.BusinessLogic.Interface.pdb
+D:\Bowling-Game\BowlingScore.BusinessLogic\bin\Debug\Autofac.xml
+D:\Bowling-Game\BowlingScore.BusinessLogic\obj\Debug\BowlingScore.BusinessLogic.csprojResolveAssemblyReference.cache
+D:\Bowling-Game\BowlingScore.BusinessLogic\obj\Debug\BowlingScore.BusinessLogic.dll
+D:\Bowling-Game\BowlingScore.BusinessLogic\obj\Debug\BowlingScore.BusinessLogic.pdb

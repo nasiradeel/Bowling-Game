@@ -61,6 +61,9 @@ namespace BowlingScore.Tests.Controllers
 
         [Fact]
         [TestMethod]
+        /// <summary>
+        ///Test for calculating the scores of open balls
+        ///</summary>
         public void CalculateOpenScore()
         {
             // Arrange
@@ -87,6 +90,9 @@ namespace BowlingScore.Tests.Controllers
 
         [Fact]
         [TestMethod]
+        /// <summary>
+        ///Test for calculating the scores of strike balls
+        ///</summary>
         public void CalculateStrike()
         {
             // Arrange
@@ -113,6 +119,9 @@ namespace BowlingScore.Tests.Controllers
 
         [Fact]
         [TestMethod]
+        /// <summary>
+        ///Test for calculating the scores of spare balls
+        ///</summary>
         public void CalculateSpare()
         {
             // Arrange
