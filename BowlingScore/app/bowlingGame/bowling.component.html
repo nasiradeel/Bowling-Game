@@ -1,0 +1,58 @@
+﻿
+<div>
+    <table border=1 width="1100">
+        <thead>
+            <tr>
+                <th width=50 colspan="2">Frame 1</th>
+                <th width=50 colspan="2">Frame 2</th>
+                <th width=50 colspan="2">Frame 3</th>
+                <th width=50 colspan="2">Frame 4</th>
+                <th width=50 colspan="2">Frame 5</th>
+                <th width=50 colspan="2">Frame 6</th>
+                <th width=50 colspan="2">Frame 7</th>
+                <th width=50 colspan="2">Frame 8</th>
+                <th width=50 colspan="2">Frame 9</th>
+                <th width=50 colspan="2">Frame 10</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <td width=50 *ngFor="let roll of rolls">{{roll}}</td>
+            </tr>
+            <tr>
+                <td width=50 align="center" colspan="2" *ngFor="let frame of frameTotal">{{frame.totalScore}}</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</div> 
+
+<br /><br />
+
+<div>
+    <form #frameForm="ngForm">
+     <div class="form-group">
+      <div>
+       <label for="firstRoll">Enter Pins knocked in first roll: </label>
+       <input type="number" [disabled]="rol2.value==10" class="form-control" required min="0" max="10" #rol1="ngModel" name="frame.firstRoll" [(ngModel)]="frame.firstRoll" />
+        <div *ngIf="rol1.errors && (rol1.dirty || rol1.touched)" class="alert alert-danger">
+         <div [hidden]="!rol1.errors.required">Pins knocked in roll1 is required!</div>
+         <div [hidden]="!rol1.errors.pattern">Pins knocked must be between 0 and 10</div>
+        </div>
+       </div>
+         <br />
+       <div>
+        <label for="seconRoll">Enter Pins knocked in second roll: </label>
+        <input type="number" [disabled]="rol1.value==10" class="form-control" min="0" max="10" #rol2="ngModel" name="frame.secondRoll" [(ngModel)]="frame.secondRoll" />
+         <div *ngIf="rol1.errors && (rol1.dirty || rol1.touched)" class="alert alert-danger">
+          <div [hidden]="!rol1.errors.required">Pins knocked in roll1 is required!</div>
+          <div [hidden]="!rol1.errors.pattern">Pins knocked must be between 0 and 10</div>
+        </div>
+       </div>
+       <br /> <br />
+      <button type="submit" [disabled]="!frameForm.form.valid || frames.length == 10" class="btn btn-default" (click)="addRoll(rol1.value,rol2.value)">Calculate Score</button>&emsp;&emsp;
+      <button type="reset" [disabled]="!frames.length == 10" class="btn btn-default" (click)="resetGame()">Start New Game</button>
+      </div>
+    </form>
+    
+</div>

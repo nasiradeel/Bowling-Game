@@ -1,0 +1,8 @@
+D:\BowlingScore\BowlingScore.BusinessLogic\bin\Debug\BowlingScore.BusinessLogic.dll
+D:\BowlingScore\BowlingScore.BusinessLogic\bin\Debug\BowlingScore.BusinessLogic.pdb
+D:\BowlingScore\BowlingScore.BusinessLogic\obj\Debug\BowlingScore.BusinessLogic.dll
+D:\BowlingScore\BowlingScore.BusinessLogic\obj\Debug\BowlingScore.BusinessLogic.pdb
+D:\BowlingScore\BowlingScore.BusinessLogic\bin\Debug\BowlingScore.BusinessLogic.Interface.dll
+D:\BowlingScore\BowlingScore.BusinessLogic\bin\Debug\BowlingScore.BusinessLogic.Interface.pdb
+D:\BowlingScore\BowlingScore.BusinessLogic\bin\Debug\Autofac.dll
+D:\BowlingScore\BowlingScore.BusinessLogic\bin\Debug\Autofac.xml

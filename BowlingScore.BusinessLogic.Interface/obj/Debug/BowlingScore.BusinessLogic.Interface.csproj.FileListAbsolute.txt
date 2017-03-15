@@ -1,0 +1,4 @@
+D:\BowlingScore\BowlingScore.BusinessLogic.Interface\bin\Debug\BowlingScore.BusinessLogic.Interface.dll
+D:\BowlingScore\BowlingScore.BusinessLogic.Interface\bin\Debug\BowlingScore.BusinessLogic.Interface.pdb
+D:\BowlingScore\BowlingScore.BusinessLogic.Interface\obj\Debug\BowlingScore.BusinessLogic.Interface.dll
+D:\BowlingScore\BowlingScore.BusinessLogic.Interface\obj\Debug\BowlingScore.BusinessLogic.Interface.pdb
